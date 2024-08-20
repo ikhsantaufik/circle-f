@@ -56,13 +56,13 @@ function App() {
         isUserLogged()
     }, [dispatch])
 
-    if (window.innerWidth < 1280) {
-        return (
-            <div className="app">
-                <CircleAlert />
-            </div>
-        )
-    }
+    // if (window.innerWidth < 1280) {
+    //     return (
+    //         <div className="app">
+    //             <CircleAlert />
+    //         </div>
+    //     )
+    // }
 
     if (isPreloaded) {
         return (
